@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\VS_Dotnet\\API_PROJECT\\Api_Project.csproj": {}
+    "D:\\VS_Dotnet\\API_PROJECT\\Api_Project.csproj": {}
   },
   "projects": {
-    "d:\\VS_Dotnet\\API_PROJECT\\Api_Project.csproj": {
+    "D:\\VS_Dotnet\\API_PROJECT\\Api_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\VS_Dotnet\\API_PROJECT\\Api_Project.csproj",
+        "projectUniqueName": "D:\\VS_Dotnet\\API_PROJECT\\Api_Project.csproj",
         "projectName": "Api_Project",
-        "projectPath": "d:\\VS_Dotnet\\API_PROJECT\\Api_Project.csproj",
+        "projectPath": "D:\\VS_Dotnet\\API_PROJECT\\Api_Project.csproj",
         "packagesPath": "C:\\Users\\Adeel\\.nuget\\packages\\",
-        "outputPath": "d:\\VS_Dotnet\\API_PROJECT\\obj\\",
+        "outputPath": "D:\\VS_Dotnet\\API_PROJECT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

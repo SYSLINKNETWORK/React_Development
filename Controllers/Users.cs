@@ -66,7 +66,7 @@ namespace Api_Project.Controllers
            
             var UserTable =  _logger.User.Where(x => x.ID == _id ).FirstOrDefault();
 
-            if (UserTable.Count() > 0)
+            if (UserTable != null)
             {
                 dttblpo_sel.Rows.Add("OK", 1, UserTable);
             }
@@ -150,7 +150,7 @@ namespace Api_Project.Controllers
             int i = cmd.ExecuteNonQuery ();
             if (i > 0) {
                 con.Close ();
-                dttblusrgp_ins.Rows.Add (_com_id.ToString (), "Record # " + _com_nam + " Deleted", 1);
+                dttblusrgp_ins.Rows.Add (_com_id.ToString (), "Record # " + _com_id + " Deleted", 1);
             }
             return JsonConvert.SerializeObject (dttblusrgp_ins);
         }
